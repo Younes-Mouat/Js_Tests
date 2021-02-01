@@ -7,5 +7,16 @@
  * @next cut
  */
 
-// You must write your own tests
-throw Error('No tests !')
+function yell(str) {
+    return str.toUpperCase();
+}
+
+
+//* Begin of tests
+const assert = require('assert')
+
+assert.strictEqual(typeof yell, 'function')
+assert.strictEqual(yell.length, 1)
+assert.deepStrictEqual(yell("cyberleet"), "CYBERLEET")
+assert.deepStrictEqual(yell("cYBErlEEt"), "CYBERLEET")
+// End of tests */

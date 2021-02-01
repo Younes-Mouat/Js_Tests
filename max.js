@@ -12,6 +12,10 @@
 
 // Your code :
 
+function max(x, y) {
+    return x > y ? x : y;
+}
+
 //* Begin of tests
 const assert = require('assert')
 

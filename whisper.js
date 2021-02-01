@@ -7,5 +7,16 @@
  * @next yell
  */
 
-// You must write your own tests
-throw Error('No tests !')
+function whisper(str) {
+    return str.toLowerCase();
+}
+
+
+//* Begin of tests
+const assert = require('assert')
+
+assert.strictEqual(typeof whisper, 'function')
+assert.strictEqual(whisper.length, 1)
+assert.deepStrictEqual(whisper("CYBERLEET"), "cyberleet")
+assert.deepStrictEqual(whisper("cYBErlEEt"), "cyberleet")
+// End of tests */

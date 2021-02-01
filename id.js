@@ -9,6 +9,10 @@
 
 // Your code :
 
+function id(params) {
+    return params;
+}
+
 //* Begin of tests
 const assert = require('assert')
 

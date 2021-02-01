@@ -8,6 +8,14 @@
  */
 
 
+function total(array_numbers) {
+    var total = 0;
+    array_numbers.forEach(element => {
+        total = total + element
+    });
+    return total;
+}
+
 //* Begin of tests
 const assert = require('assert')
 
