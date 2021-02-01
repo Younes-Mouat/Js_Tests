@@ -8,6 +8,16 @@
  */
 
 
+function sentence(array) {
+    const last_elt = array[array.length-1];
+    var str = "";
+    array.pop();
+    array.forEach(element => {
+        str = str + element + " ";
+    });
+    return str + last_elt;
+}
+
 //* Begin of tests
 const assert = require('assert')
 

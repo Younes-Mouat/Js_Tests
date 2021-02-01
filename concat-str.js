@@ -9,6 +9,13 @@
 
 // Your code :
 
+function concatStr(a, b) {
+    const str_a = a.toString();
+    const str_b = b.toString();
+
+    return str_a + str_b;
+}
+
 //* Begin of tests
 const assert = require('assert')
 

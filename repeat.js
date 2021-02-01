@@ -9,6 +9,15 @@
  * @next sentence
  */
 
+
+function repeat(str, x) {
+    var repeated_str = "";
+    for (let index = 0; index < x; index++) {
+        repeated_str = repeated_str + str;
+    }
+    return repeated_str;
+}
+
 //* Begin of tests
 const assert = require('assert')
 
